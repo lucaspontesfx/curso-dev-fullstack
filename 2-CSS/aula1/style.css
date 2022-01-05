@@ -1,0 +1,13 @@
+/* dando um visual no body( background da minha página  ( aqui estilizo diretamente com a tag nesse caso a tag body */
+body{
+    background-color: aquamarine;
+}
+/* posso estilizar usando class= que tera um nome e buscarei aqui com .   */
+.foto-principal{
+    width: 200px;
+}
+/* posso também usar o id e buscar o nome pelo # ( não é muito usado, mas sera mais usado com javascript  */
+
+#titulo-principal{
+color: yellow;
+}

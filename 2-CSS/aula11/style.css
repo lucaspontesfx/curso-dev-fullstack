@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(255, 253, 253);
+    font-family: 'Raleway', sans-serif;
+    color: rgb(34, 34, 34);
+
+
+}
+/*As divs são para dividir partes do nosso site em HTML essa por exemplo é do containber que enquadra meu site*/
+.container{
+    width: 900px;
+    margin: 0% auto;
+}
+.profile{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.foto-principal{
+    width: 200px;
+    border:2px solid rgb(177, 171, 171) ;  /*shorthand*/
+    border-radius: 1% 2% 30% 30%; 
+    border-style: inset;
+    margin: 30px 30px 0px 30px; /*shorthand*/
+    padding: 2px; /* shrothand(tem como colocar apenas um valor que ele entende que é para os 4 lados*/
+    box-shadow: 0px 5px 10px rgb(122, 114, 114);
+
+}
+h1{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 50px;
+
+}
+h2{
+    margin-top: 0px;
+    font-style: italic;
+    color: rgb(64, 63, 63 );
+    font-weight: 100;
+    letter-spacing: -1px    ;
+}
+.social-links{
+    text-decoration: none;
+}
+
+.social-icons{
+    width: 20px;
+    height: auto;
+}
+.github{
+    margin: 0px 15px 0px 15px;
+}
+
+
+

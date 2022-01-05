@@ -1,0 +1,27 @@
+
+/* dando um visual no body( background da minha página  ( aqui estilizo diretamente com a tag nesse caso a tag body 
+vou usar agora uma imagem de background
+
+*/
+body{
+    background-image: url(caguei.jpg);
+    background-repeat: no-repeat;
+    /*background-position: 100% 10%;
+*/
+background-position: center center ;/* aqui posso escolher a posição da imagem de background*/
+background-size: cover ;/* aqui uso esse atributo para cobrir todo o background com a minha imagem*/
+background-attachment: fixed;/* com esse atributo eu fixo a imagem de forma que quando eu faça o scroll ela não acompanhe o conteúdo*/
+
+
+
+
+
+}
+
+    p{
+color: rgb(34, 34, 34);
+}
+.foto-principal{
+    width: 300px;
+
+}

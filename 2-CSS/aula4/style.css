@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(255, 253, 253);
+ 
+}
+
+    p{
+color: rgb(34, 34, 34);
+}
+.foto-principal{
+    width: 250px;
+    border:2px solid rgb(177, 171, 171) ;  /*shorthand*/
+    border-radius: 1% 2% 30% 30%; 
+    border-style: inset;
+    /*
+    Aqui são as propriedades usadas em shorthand
+    border-width: 5px;
+    border-style: dotted;
+    border-color: black;
+    */
+
+}
+p{
+    border-style: inset;
+
+}

@@ -1,0 +1,7 @@
+/* dando um visual no body( background da minha página  ( aqui estilizo diretamente com a tag nesse caso a tag body */
+body{
+    background-color:rgb(231, 226, 226)
+}
+p{
+color: rgb(34, 34, 34);
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(255, 253, 253);
+ 
+}
+
+    p{
+color: rgb(34, 34, 34);
+}
+.foto-principal{
+    width: 250px;
+    border:2px solid rgb(177, 171, 171) ;  /*shorthand*/
+    border-radius: 1% 2% 30% 30%; 
+    border-style: inset;
+    margin: 30px; /*shorthand*/
+    padding: 2px; /* shrothand(tem como colocar apenas um valor que ele entende que é para os 4 lados*/
+    box-shadow: 0px 5px 10px rgb(122, 114, 114);
+
+}
+p{
+    border-style: inset;
+
+}
