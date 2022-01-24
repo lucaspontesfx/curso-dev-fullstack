@@ -1,0 +1,41 @@
+
+:root {
+    --primary-color: rgb(41, 41, 136);
+    --secondary-color: rgb(69, 69, 185);
+    --third-color: rgb(81, 81, 221);
+}
+
+h1 {
+    color: var(--primary-color);
+
+}
+
+p {
+
+}
+
+h2 {
+    color: var(--secondary-color);
+
+}
+
+h3 {
+    color: var(--third-color);
+
+}
+
+button {
+    color: white;
+    background: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button a:hover {
+    color: rgb(109, 109, 212);
+
+}
