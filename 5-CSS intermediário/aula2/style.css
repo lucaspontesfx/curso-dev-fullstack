@@ -1,0 +1,21 @@
+
+
+h1 {
+    text-shadow: 2px 2px 33px red;
+
+}
+
+p {
+color: blue;
+text-align:justify ;
+text-indent: 50px;
+font-size: 30px
+
+
+}
+
+a {
+    font-size: 20px;
+    letter-spacing: 10px;
+    text-decoration: none;
+}

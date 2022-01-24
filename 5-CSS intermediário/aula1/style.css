@@ -1,0 +1,28 @@
+
+.exemplo {
+    border: 3px solid black;
+    margin: 20px;
+    padding: 30px;
+}
+
+.exemplo1 p.red {
+    color: red;
+
+}
+
+.margin {
+    margin: 30px;
+
+}
+
+h1, h2, h3 {
+    color: blue; /* dá para usar mais de um seletor também funciona para classe */
+}
+
+.exemplo2 > p { /* Nesse caso eu busco o paragrafo filho direto da classe, e somente ele será estilizado*/
+    color: blue;
+}
+
+.exemplo3 + p {/* Vai estilizar o primeiro irmão direto*/
+color: red;
+}

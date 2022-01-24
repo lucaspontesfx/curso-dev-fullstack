@@ -1,0 +1,10 @@
+div {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    overflow: auto; /* o auto calcula automaticamente onde precisa ter a barra de rolagem */
+   /* overflow-x: hidden ; Esconde o eixo horizontal */
+   /* overflow-y: hidden ; Esconde o eixo vertical */
+
+
+}

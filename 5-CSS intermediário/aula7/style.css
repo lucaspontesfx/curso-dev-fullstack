@@ -1,0 +1,35 @@
+::selection {
+    color:pink; 
+    background: rgb(163, 156, 156);
+
+}
+
+p::first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+p::first-line {
+    color: orange;
+
+}
+
+h1::before { /* adicionando elementos antes do título, nessse caso , um icone de foguete via link de imagem*/
+    background: url(https://cdn-icons-png.flaticon.com/512/770/770706.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    content: "";
+    margin-right: 10px;
+}
+
+h1::after {/* adicionando elementos depois do título, nessse caso , um icone de foguete via link de imagem*/
+    background: url(https://cdn-icons-png.flaticon.com/512/770/770706.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    content: "";
+    margin-left: 10px;
+}

@@ -1,0 +1,16 @@
+body {
+    background: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg );
+}
+
+ul {
+    background: grey;
+    padding: 20px;
+    opacity: 0.5;
+    /*display: none; faz o elemento desaparecer da tela   DESOCUPANDO A ÁREA*/
+    /*visibility: hidden; Esconde o elemento da tela,mas sua área não pode ser ocupada */
+}
+
+ul li {
+    display: inline;
+    margin: 20px;
+}
